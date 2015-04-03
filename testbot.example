@@ -1,0 +1,8 @@
+Instructions
+
+- Create a file called .testbot in the repository root directory
+  (i.e. the same directory that contains the .git directory).
+- Add the desired properties as a valid JSON string.
+- The following string sets the PHP version and the list of tests to be run.
+
+{"php-version":"5.5","classes":["Drupal\\comment\\Tests\\Views\\CommentFieldFilterTest","Drupal\\comment\\Tests\\Views\\WizardTest","Drupal\\config\\Tests\\ConfigImportAllTest","Drupal\\field\\Tests\\FormTest"]}
